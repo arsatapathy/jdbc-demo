@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.suryaprava'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.oracle.database.jdbc:ojdbc8:21.1.0.0'
+    testCompile 'junit:junit:4.12'
+}
