@@ -1,4 +1,4 @@
-package com.suryaprava.jdbc;
+package com.arsatapathy.jdbc;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

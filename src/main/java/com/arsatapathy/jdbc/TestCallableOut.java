@@ -1,4 +1,4 @@
-package com.suryaprava.jdbc;
+package com.arsatapathy.jdbc;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
