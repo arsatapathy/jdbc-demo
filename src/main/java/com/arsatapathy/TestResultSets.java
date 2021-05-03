@@ -1,4 +1,4 @@
-package com.arsatapathy.jdbc;
+package com.arsatapathy;
 
 import java.sql.Statement;
 import java.sql.Connection;

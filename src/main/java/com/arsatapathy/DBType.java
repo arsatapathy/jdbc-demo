@@ -1,4 +1,4 @@
-package com.arsatapathy.jdbc;
+package com.arsatapathy;
 
 public enum DBType {
 	ORADB; 
