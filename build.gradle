@@ -2,16 +2,18 @@ plugins {
     id 'java'
 }
 
-group 'com.arsatapathy'
+group 'org.example'
 version '1.0-SNAPSHOT'
-
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'com.oracle.database.jdbc:ojdbc8:21.1.0.0'
-    testCompile 'junit:junit:4.12'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+test {
+    useJUnitPlatform()
 }
